@@ -18,7 +18,7 @@ npm i -D eslint @matheuspires/eslint-config
 2. Create a `.eslintrc.json` file extending the config:
 ```
 {
-  "extends": "@matheuspires/eslint-config/react"
+  "extends": "@matheuspires/eslint-config"
 }
 ```
 
