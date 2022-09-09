@@ -30,8 +30,11 @@
       "trailingComma": "all",
       "arrowParens": "always"
     }],
+		"no-console": "warn",
+		"no-useless-constructor": "off",
 		"react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
+		"react/display-name": "off",
 		"react/jsx-curly-brace-presence": [
       "error",
       { "props": "never", "children": "never" }
