@@ -44,13 +44,21 @@
       {
         "newlinesBetween": "always",
         "groups": [
-          ["/^react$/", "/^react-(native|dom)$/", "/^next/"],
+					["/^(react/(.*)$)/", "/^(react$)/"],
+          ["/^(next/(.*)$)/", "/^(next$)/"],
           "module",
           "/^@//",
           ["parent", "sibling"],
           "index"
         ],
         "alphabetize": { "order": "asc", "ignoreCase": true }
+      }
+    ],
+		"@typescript-eslint/consistent-type-imports": [
+      "warn",
+      {
+        "prefer": "type-imports",
+        "fixStyle": "inline-type-imports"
       }
     ]
 	},
